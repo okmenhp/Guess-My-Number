@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    height: 35vh;
+    border-bottom: 5px solid #ffffff;
+    position: relative;
+}
+
+header button {
+    float: left;
+    margin-left: 10px;
+    padding: 1rem;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+header p {
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+header h1 {
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .number {
+    background-color: #ffffff;
+    font-size: 3rem;
+    width: 10rem;
+    padding: 3rem 0rem;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+header .number p {
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10rem 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.left input {
+    width: 60%;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 3rem 0;
+}
+
+.left input[type="number"] {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.left button {
+    width: 50%;
+    padding: 1.5rem 1.5rem;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #ffffff;
+    width: 20%;
+}
